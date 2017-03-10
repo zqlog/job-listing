@@ -13,8 +13,9 @@ class Admin::JobsController < ApplicationController
   end
 
   def index
-    @jobs = Job.all
+     @jobs = Job.all
   end
+
 
   def new
     @job = Job.new
